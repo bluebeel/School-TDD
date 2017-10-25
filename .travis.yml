@@ -3,4 +3,7 @@ language: java
 jdk:
   - oraclejdk8
 
-before_install: cd TDD_1
+env:
+  - TEST_DIR=TDD_1
+
+before_install: cd $TEST_DIR
