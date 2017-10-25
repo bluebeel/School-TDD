@@ -9,4 +9,4 @@ env:
 before_install: cd $TEST_DIR
 
 after_success:
-  - ./gradlew test jacocoTestReport coveralls
+  - cd .. && $TEST_DIR/gradlew test jacocoTestReport coveralls
