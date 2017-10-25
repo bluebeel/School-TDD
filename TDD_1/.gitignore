@@ -6,6 +6,8 @@
 *.class
 
 .idea/
+build/
+out/
 
 # Log file
 *.log
