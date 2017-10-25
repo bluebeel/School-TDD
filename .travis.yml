@@ -3,4 +3,4 @@ language: java
 jdk:
   - oraclejdk8
 
-before_script: cd TDD_1
+before_install: cd TDD_1
