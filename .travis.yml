@@ -7,3 +7,6 @@ env:
   - TEST_DIR=TDD_1
 
 before_install: cd $TEST_DIR
+
+script:
+    - ./gradlew test
